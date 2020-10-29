@@ -1,0 +1,93 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Budo</title>
+    </head>
+
+    <body>
+
+        <h1> Exemple d'un formulaire</h1>
+        <form method="post" action="traitement.php">
+            <p><label for="nom"> Votre nom</label>
+                <input type="text" name="nom" id="nom" autofocus /></p>
+                <p>
+                  <label for="logo">
+                      Votre prénom
+                  </label>
+                  <input type="text" name=prénom id="logo"/>
+                  
+                </p>
+                <p> <label for="age"> Votre âge</label>
+                   <input type="date" name="age" id="age" />  </p>
+                 <p>
+                     <label for="mail">Votre mail</label>
+                     <input type="email" name="mail" id="mail" />
+                     <p> 
+                         <label for="pass">Indiquez votre mot de passe svp?</label>
+                         <input type="password" name="pass" id="pass"/>
+                     </p>
+                     <p> <input type="number" min="0" max="90" /> </p>
+                 </p>   
+                 <p>   Vous aimez quoi comme aliment?:<br />
+
+                     <input type="checkbox" name="frites" id="frites"/> <label for="frites">Frites</label><br/> /* Reponses à plusieurs choix */
+                      <input type="checkbox" name="steak" id="steak" /> <label for="steak" >Steak</label><br/>
+                      <input type="checkbox" name="epinards" id="epinards" /><label for="epinards">Epinards</label>
+            </p>
+            <p>    Et sinon quel âge avez-vous?: <br />
+                <input type="radio" name="age" value="moins15" id="moins15" /><label for="moins15">Moins de 15 ans</label><br /> /* Une seule réponse possible */
+                <input type="radio" name="age" value="15-25" id="15-25" /><label for="15-25"> Entre 15 et 25 ans</label><br />
+                <input type="radio" name="age" value="plus25" id="plus25" /><label for="plus25"> Plus de 25 ans</label>
+  
+
+            </p>
+             <p>
+                 <label for="pays" >Dans quel pays habitez vous? :</label> <br />
+                 <select name="pays"  id="pays">
+                     <option value="france "> France</option>   /* liste déroulante */
+                     <option value="espagne">Espagne</option>
+                     <option value="italie"> Italie</option>
+                     <option value="portugal"> Portugal</option>
+                 </select>
+                     
+
+                 <p>
+                     <input type="submit" value="recommençez" />
+                 </p>
+
+                 
+
+             </p>
+            
+        </form>
+
+
+
+        <p> <audio src="music.mp3"  controls></audio></p>
+
+
+
+        <p> <video src="sarah.mp4" controls ></videos></p>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
